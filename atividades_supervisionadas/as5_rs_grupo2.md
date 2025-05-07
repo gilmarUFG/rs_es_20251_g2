@@ -1,0 +1,1 @@
+![](imagens/infografico1.jpg)
