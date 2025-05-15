@@ -9,8 +9,8 @@ Baixa
 
 ## Especificação do requisito  
 **Como** usuário do sistema  
-**Quero** acessar opções de áudio/guias para meditação e técnicas de respiração  
-**Para** que eu possa praticar o autocuidado e reduzir o estresse de forma assistida
+**Quero** cessar opções de áudio e guias interativos com instruções para meditação e técnicas de respiração 
+**Para** que eu possa encontrar momentos de pausa e relaxamento ao longo do dia, promovendo o equilíbrio emocional, a concentração e o bem-estar físico e mental durante minhas atividades diárias.
 
 ## Critérios de aceitação  
 
