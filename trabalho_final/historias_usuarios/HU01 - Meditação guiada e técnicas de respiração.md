@@ -9,7 +9,7 @@ Baixa
 
 ## Especificação do requisito  
 **Como** usuário do sistema  
-**Quero** cessar opções de áudio e guias interativos com instruções para meditação e técnicas de respiração 
+**Quero** cessar opções de áudio e guias interativos com instruções para meditação e técnicas de respiração  
 **Para** que eu possa encontrar momentos de pausa e relaxamento ao longo do dia, promovendo o equilíbrio emocional, a concentração e o bem-estar físico e mental durante minhas atividades diárias.
 
 ## Critérios de aceitação  
