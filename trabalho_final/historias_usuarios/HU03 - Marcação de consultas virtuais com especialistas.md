@@ -9,7 +9,7 @@ Média
 
 ## Especificação do requisito  
 **Como** Usuário do aplicativo  
-**Eu quero** marcar consultas virtuais com especialistas em saúde e bem-estar  
+**Quero** marcar consultas virtuais com especialistas em saúde e bem-estar  
 **Para que** eu possa receber atendimento de forma prática e acessível
 
 ## Critérios de aceitação  
