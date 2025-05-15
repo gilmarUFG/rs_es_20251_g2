@@ -1,0 +1,35 @@
+@startuml "Diagrama de classes de análise"
+title Diagrama de classes de análise
+
+Class Colaborador {
+    nome
+    idade
+}
+
+Class Funcao {
+    nome
+    descricao
+}
+
+Class Departamento {
+    nome
+    descricao
+}
+
+Class SugestaoAtividade {
+    titulo
+    descricao
+}
+
+Class Avaliacao {
+    nota
+    comentário
+}
+
+Funcao - Colaborador: < Possui
+Funcao -- Departamento: Pertence >
+Colaborador - SugestaoAtividade: > Cadastra | Omite
+
+Colaborador - SugestaoAtividade: > Avalia
+(Colaborador, SugestaoAtividade) .. Avaliacao
+@enduml
