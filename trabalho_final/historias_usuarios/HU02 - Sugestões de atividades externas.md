@@ -1,4 +1,4 @@
-# HU4 - Sugestões de atividades externas
+# HU2 - Sugestões de atividades externas
 ## Fonte do requisito
 Sugestão 8, apresentada por Felipe Moreira Silva.
 
