@@ -4,6 +4,9 @@ Sugestão 8, apresentada por Felipe Moreira Silva.
 
 > O sistema deve ofertar uma grade de serviços externos aos colaboradores; como lazer; atividades físicas e auxílios; fora do trabalho. Estes podem ser mudados periodicamente; a fim de atrair atenção.
 
+## Prioridade
+Média
+
 ## Especificação do requisito
 **Como** gestor de recursos humanos,  
 **Eu quero** criar e gerenciar uma lista de sugestões de atividades e serviços externos à organização, em que os usuários possam optar por omitir sugestões e avaliar positiva ou negativamente uma sugestão;  
