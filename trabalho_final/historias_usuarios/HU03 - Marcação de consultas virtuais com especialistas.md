@@ -27,3 +27,18 @@ Média
 **Dado que** o usuário agendou uma consulta virtual com sucesso  
 **Quando** a data da consulta estiver se aproximando (por exemplo, 24 horas antes)  
 **Então** o sistema deve enviar uma notificação lembrando o usuário sobre a consulta
+
+### Cenário 4 - Cancelamento de consulta virtual  
+**Dado que** o usuário possui uma consulta virtual agendada  
+**Quando** ele optar por cancelar a consulta antes do horário marcado  
+**Então** o sistema deve permitir o cancelamento e notificar o especialista sobre a alteração
+
+### Cenário 5 - Consulta virtual em andamento  
+**Dado que** a data e o horário da consulta chegaram  
+**Quando** o usuário acessar a área de consultas e clicar em "Iniciar Consulta"  
+**Então** o sistema deve iniciar a chamada de vídeo com o especialista correspondente
+
+### Cenário 6 - Histórico de consultas virtuais  
+**Dado que** o usuário já participou de consultas virtuais anteriores  
+**Quando** ele acessar a seção de histórico de consultas  
+**Então** o sistema deve exibir uma lista com as datas, horários, nomes dos especialistas e status das consultas realizadas
