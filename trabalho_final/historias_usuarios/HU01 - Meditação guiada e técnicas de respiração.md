@@ -30,7 +30,7 @@ Baixa
 **Então** o sistema deve reproduzir o conteúdo correspondente com controles de pausa e parada
 
 ### Cenário 4 - Exercícios de respiração personalizáveis
-**Dado que** selecionei uma técnica de respiração 
+**Dado que** selecionei uma técnica de respiração   
 **Quando** inicio o exercício  
 **Então** devo ver um contador visual que me orienta o ritmo da respiração e posso personalizar o tempo se necessário
 
