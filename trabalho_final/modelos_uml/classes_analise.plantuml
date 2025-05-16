@@ -1,35 +1,97 @@
-@startuml "Diagrama de classes de análise"
-title Diagrama de classes de análise
+@startuml
+' Diagrama de classes g2
+skinparam classAttributeIconSize 0
 
-Class Colaborador {
-    nome
-    idade
+class AplicativoBemEstar
+
+class Usuario {
+    -id
+    -nome
+    -email
+    -funcao
 }
 
-Class Funcao {
-    nome
-    descricao
+class Guia {
+    -tipo
+    -mensagem
 }
 
-Class Departamento {
-    nome
-    descricao
+class Meditacao {
+    -titulo
+    -duracao
+    -descricao
 }
 
-Class SugestaoAtividade {
-    titulo
-    descricao
+class TecnicaRespiracao {
+    -nome
+    -intervalos
+    -descricao
 }
 
-Class Avaliacao {
-    nota
-    comentário
+class ServicoExterno {
+    -nome
+    -categoria
+    -dataValidade
+    -likes
+    -deslikes
 }
 
-Funcao - Colaborador: < Possui
-Funcao -- Departamento: Pertence >
-Colaborador - SugestaoAtividade: > Cadastra | Omite
+class Especialista {
+    -nome
+    -especialidade
+    -agenda
+}
 
-Colaborador - SugestaoAtividade: > Avalia
-(Colaborador, SugestaoAtividade) .. Avaliacao
+class Consulta {
+    -dataHora
+    -especialista
+    -link
+}
+
+class Feedback {
+    -mensagem
+    -usuario
+    -dataEnvio
+}
+
+class Report {
+    -mensagem
+    -usuario
+    -dataEnvio
+}
+
+class FeedbackAnom {
+    -mensagem
+    -dataEnvio
+}
+
+class Pausa {
+    -duração
+    -executada
+}
+
+interface DetectorPadraoUso {
+    +detectarTempoUso
+    +detectarAtividadeRepetitiva
+}
+
+AplicativoBemEstar  --  DetectorPadraoUso : monitora
+AplicativoBemEstar  --  Usuario : possui
+AplicativoBemEstar  --  ServicoExterno : oferece
+AplicativoBemEstar  --  Guia : oferece
+AplicativoBemEstar  --  FeedbackAnom :recebe
+AplicativoBemEstar  --  Pausa :recomenda
+
+Usuario  --  Consulta : marca
+Usuario -- Feedback : envia
+Usuario  --  Pausa : marca
+Usuario  --  Report : envia
+Usuario  --  ServicoExterno : omite
+
+Consulta  --  Especialista : realiza
+
+Guia -- Meditacao 
+Guia -- TecnicaRespiracao
+
+ServicoExterno -- Feedback : recebe
 @enduml
