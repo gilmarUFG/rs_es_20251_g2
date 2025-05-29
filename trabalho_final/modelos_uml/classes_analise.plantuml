@@ -70,6 +70,52 @@ class Pausa {
     -executada
 }
 
+class PerfilSaude {
+    -condicoesFisicas
+    -habitosTrabalho
+}
+
+class Recomendacao {
+    -tipo
+    -conteudo
+    -categoria
+    -avaliacaoUsuario
+}
+
+class DicaErgonomia {
+    -categoria
+    -conteudo
+    -tipoConteudo
+}
+
+class Lembrete {
+    -tipoHabito
+    -horario
+    -frequencia
+    -ativo
+}
+
+class ReuniaoBemEstar {
+    -dataHora
+    -tema
+    -link
+    -especialista
+    -inscritos
+}
+
+class Desafio {
+    -nome
+    -descricao
+    -requisitos
+    -tipoAtividade
+}
+
+class Conquista {
+    -nome
+    -progresso
+    -porcentagemUsuarios
+}
+
 interface DetectorPadraoUso {
     +detectarTempoUso
     +detectarAtividadeRepetitiva
@@ -81,12 +127,17 @@ AplicativoBemEstar  --  ServicoExterno : oferece
 AplicativoBemEstar  --  Guia : oferece
 AplicativoBemEstar  --  FeedbackAnom :recebe
 AplicativoBemEstar  --  Pausa :recomenda
+AplicativoBemEstar -- DicaErgonomia : fornece
 
 Usuario  --  Consulta : marca
 Usuario -- Feedback : envia
 Usuario  --  Pausa : marca
 Usuario  --  Report : envia
 Usuario  --  ServicoExterno : omite
+Usuario -- PerfilSaude : possui
+Usuario -- Lembrete : configura
+Usuario -- ReuniaoBemEstar : participa
+Usuario -- Desafio : participa
 
 Consulta  --  Especialista : realiza
 
@@ -94,4 +145,10 @@ Guia -- Meditacao
 Guia -- TecnicaRespiracao
 
 ServicoExterno -- Feedback : recebe
+
+Especialista -- ReuniaoBemEstar : conduz
+
+Desafio -- Conquista : gera
+
+PerfilSaude -- Recomendacao : gera
 @enduml
