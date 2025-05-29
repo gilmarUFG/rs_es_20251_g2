@@ -1,4 +1,4 @@
-# HU2 - Sugestões de atividades externas
+# HU10 - Desafios de bem-estar
 ## Fonte do requisito
 Sugestão 46, apresentada por Vitória Luz Alves.
 
