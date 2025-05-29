@@ -1,7 +1,7 @@
 # HU08 - Configuração de lembretes para hábitos saudáveis
 
 ## Fonte do requisito  
-Sugestão 38, apresentado por SOPHIA FERNANDES MAGALHÃES ALMEIDA
+Sugestão 38, apresentado por Sophia Fernandes Magalhães Almeida
 > O sistema deve permitir que os funcionários configurem lembretes personalizados para hábitos saudáveis, como beber água, fazer pausas e ajustar a postura.
 
 ## Prioridade
