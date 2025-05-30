@@ -9,6 +9,11 @@ class Usuario {
     -nome
     -email
     -funcao
+    -equipamentos usados
+}
+
+class Agenda {
+    -horarios
 }
 
 class Guia {
@@ -40,12 +45,13 @@ class Especialista {
     -nome
     -especialidade
     -agenda
+    -curriculo
 }
 
 class Consulta {
     -dataHora
-    -especialista
     -link
+    -status
 }
 
 class Feedback {
@@ -68,6 +74,7 @@ class FeedbackAnom {
 class Pausa {
     -duração
     -executada
+    -frequencia
 }
 
 class PerfilSaude {
@@ -99,7 +106,6 @@ class ReuniaoBemEstar {
     -dataHora
     -tema
     -link
-    -especialista
     -inscritos
 }
 
@@ -114,6 +120,7 @@ class Conquista {
     -nome
     -progresso
     -porcentagemUsuarios
+    -badge
 }
 
 interface DetectorPadraoUso {
@@ -138,15 +145,17 @@ Usuario -- PerfilSaude : possui
 Usuario -- Lembrete : configura
 Usuario -- ReuniaoBemEstar : participa
 Usuario -- Desafio : participa
+Usuario -- Conquista : possui
 
 Consulta  --  Especialista : realiza
 
-Guia -- Meditacao 
-Guia -- TecnicaRespiracao
+Guia -- Meditacao : guia de
+Guia -- TecnicaRespiracao : guia de
 
 ServicoExterno -- Feedback : recebe
 
 Especialista -- ReuniaoBemEstar : conduz
+Especialista -- Agenda : possui
 
 Desafio -- Conquista : gera
 
