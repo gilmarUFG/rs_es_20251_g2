@@ -1,0 +1,53 @@
+Commit;Author;Date;Message
+fdd2f66b4ac7e990e4c60b709c2f2e5615fc754f Merge: b52d45f 6e374ea;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:11:06 2025 -0300;Merge branch 'estudante'
+b52d45fdbce0e9dc9105eace2e663e898593ec51;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:07:11 2025 -0300;update repository
+6e374ea70ac2b0cde541904769587f49e84374f3;Sophia Almeida <sophialmeida03@gmail.com>;Thu Jun 26 19:16:24 2025 -0300;add slides da apresentação do trabalho final
+b44fcfe9f102b26752bf1679cb963beff5e59931;Arthurnucada <131211101+Arthurnucada@users.noreply.github.com>;Thu May 29 22:31:05 2025 -0300;Update classes_analise.plantuml
+a23bd00edfc24ce700892c712c4f8fec65fa0862;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Thu May 29 20:47:00 2025 -0300;Update HU10 - Desafios de bem estar.md
+e3ec8029df570f362318b6821eb4bfef07bf400c;jntlvr <131724696+jntlvr@users.noreply.github.com>;Thu May 29 19:41:21 2025 -0300;Adição HU09
+ffa73a54a55898d89064a330d27195b01b22958e;Arthurnucada <131211101+Arthurnucada@users.noreply.github.com>;Thu May 29 18:49:20 2025 -0300;Update classes_analise.plantuml Adaptando o diagrama de classes para as novas HU's
+459dadb339b9c75ff0a4cc75d649213ad8f48823;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Thu May 29 18:25:03 2025 -0300;Add HU10
+ff2a9391838f4f56c68d90ecdf34ab136aee2f48;Lucas Nunes <lucasnunnes40@gmail.com>;Thu May 29 18:12:46 2025 -0300;ajuste hu08
+dd5f5b06b2e254270735f7c24d2d38514fe14f9d;Lucas Nunes <lucasnunnes40@gmail.com>;Thu May 29 18:11:36 2025 -0300;add HU08
+dbdb5929d296845aeaf173682da9bc6cf59a3f7c;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 29 09:59:24 2025 -0300;Add HU07
+6d383e31cc34543fee0d8e6b26daa10bde403508;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 29 09:53:28 2025 -0300;Create HU06 - Recomendações personalizadas de bem-estar.md
+ed497e76851b1054ea0574c6035c297e1993c974;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 22 10:36:02 2025 -0300;alterando atividade prática aula 9
+664a091d60c727ecd45093e88e4c475261026570;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 22 10:32:55 2025 -0300;Adicionando atividade da aula 10
+0513e4aba679c89948a9be1c58ed2a78a98eb063;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Fri May 16 06:27:07 2025 -0300;Update HU01
+8402e10fd45a70012d0027d43418a54f90128ab5;Arthurnucada <131211101+Arthurnucada@users.noreply.github.com>;Thu May 15 23:23:05 2025 -0300;Atualizando diagrama de classes
+f012dd9e5456b6170845696b53a1f4f325d32fc4;Lucas Nunes <lucasnunnes40@gmail.com>;Thu May 15 20:51:37 2025 -0300;adicionando cenários hu3
+33d67341b18e3035900a2ee2bcb21be99bce2cfe;jntlvr <131724696+jntlvr@users.noreply.github.com>;Thu May 15 20:38:17 2025 -0300;Create HU05 - Feedback e Reporte Anônimo.md Adição H05
+fa9bb8414e8cf522bf3184d15bdae4360f83094e;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 15 20:22:54 2025 -0300;Ajuste na HU1
+b34253c971c2bcc6aa28deba0b8dcd75fff933b3;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 15 20:22:32 2025 -0300;Ajuste na HU1
+d77e32bd24dd42de32bbb19b1533cc69bfc1d547;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 15 20:21:17 2025 -0300;Adicionando HU4
+d11c871197658295fe9446a88af2b9c3811af512;Lucas Nunes <lucasnunnes40@gmail.com>;Thu May 15 20:12:22 2025 -0300;ajuste hu03
+e652f25a0acb23ef08f7ef6b3f9c592bb3e6e9fa;Lucas Nunes <lucasnunnes40@gmail.com>;Thu May 15 23:11:24 2025 +0000;adicionando hu03
+27e9d1b5e9eadce7e230294ed71dd90dbfe46b7b;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 15 20:09:24 2025 -0300;Update HU1
+0039037d9795ebed17b2e74b50ed9d4f3ee49c6f;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Thu May 15 20:04:31 2025 -0300;Renomeia HU04, se adequando à tabela de requisitos
+73566124fb77d6b365aff972d2391c60471fd674;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Thu May 15 20:01:11 2025 -0300;Adiciona prioridade à HU04
+4da9be8cb4ce32fad7ee7585f68d9902f8332dca;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 15 19:55:50 2025 -0300;Corrigindo nome
+b644cacef5dac23c6329e9966a711fb04897d248;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu May 15 19:55:08 2025 -0300;Adicionando HU1 completa
+c1824ea7a7b6543a223e50d9439f25fedefe32cc;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Thu May 15 19:42:42 2025 -0300;Inclusão da HU04
+125378ac8d9cb8a2b2faa885fd703f26150ae425;sophiafma <sophialmeida03@gmail.com>;Thu May 15 19:25:25 2025 -0300;Adicionando HU01
+9b62b3689b54f65f0349ea0e2b410c69af9c2f9c;sophiafma <sophialmeida03@gmail.com>;Thu May 15 19:17:25 2025 -0300;adicionando diretorio do trabalho final
+8bc9baa29a93895e0d42cfc5242c78f47f719cbd;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Wed May 7 18:01:50 2025 -0300;Inclusão da Atividade Supervisionada 5
+22e1e73a85e6b8dbf16a15fcf94c52af80a7ce54;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:30:00 2025 -0300;update repository
+cfe3caca87f1845363cb04cc4ff715667792cd2f;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 25 17:01:38 2025 -0300;update repository
+c23c51ad3cf9762f6a4283568b4b635d8522d276;jntlvr <131724696+jntlvr@users.noreply.github.com>;Tue Apr 22 21:26:07 2025 -0300;Create ae_aula07_202201699jose.md
+64345705154b6a70417010d34b6bf4c3566773ca;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Tue Apr 22 19:51:55 2025 -0300;Create ae_aula07_202201713_Sophia.md
+010ca040a11532ec965adb1df4defec9c8f99d9b;Lucas Nunes <lucasnunnes40@gmail.com>;Tue Apr 22 00:22:45 2025 +0000;add atividade extraordinária
+661bc7b5ac0fb7a3b8d601cd007d1a33096e395e;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 18 11:22:36 2025 -0300;update repository
+1f7ee1044e94e1dfa909898d7fd3b02994bee479;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 17 19:00:38 2025 -0300;update repository
+71f2ffd390d1a33156a2c62e809619e4ece5e32c;Victor M. Vieira <53177932+vmvuno@users.noreply.github.com>;Wed Apr 16 17:48:20 2025 -0300;Atividade Supervisionada 4
+4bbe94a6345a25b571f528d71616364b5c92c9d9;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu Apr 10 21:24:29 2025 -0300;Update cenarios_g2.csv
+688a11087d601d251206294c275fb34b261c5e76;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu Apr 10 21:17:09 2025 -0300;atividade prática aula dia 10/04
+e29d3a644ae53a8f1efe5113054f9bebd0ca3cc0;Lucas Nunes <lucasnunnes40@gmail.com>;Wed Apr 9 20:55:49 2025 +0000;atividade supervisionada 3
+4eb8adbaff7260caaf9c4d35c4fbc50e25ba0eeb Merge: 8879979 27163e9;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Mar 29 11:46:17 2025 -0300;Merge branch 'estudante'
+27163e9b8defaf2ddb9342758efca7a714849702;Sophia Almeida <106751626+sophiafma@users.noreply.github.com>;Thu Mar 27 21:22:55 2025 -0300;Create ap-aula4-g2.md
+8879979e63db22b8d3d87b93edd343ef8d2ac670 Merge: f7f91b1 c157b48;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Mar 27 20:59:37 2025 -0300;Merge branch 'estudante'
+c157b48c21f4654258e41281499ac06291dc3a01;Lucas Nunes <lucasnunnes40@gmail.com>;Wed Mar 26 19:16:18 2025 -0100;Envio atividade supervisionada 2
+f7f91b108e58cc761b3167705025b2d275096c8d Merge: b79505a 0233281;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Mar 21 18:38:57 2025 -0300;Merge pull request #1 from gilmarUFG/estudante Create ap-aula3-g2.md
+0233281a02811e3e215372c0e1167b3b97082dd4;jntlvr <131724696+jntlvr@users.noreply.github.com>;Thu Mar 20 21:26:28 2025 -0300;Create ap-aula3-g2.md
+b79505ae2473cd64c70609f75e20c4e5dcf4b821;jntlvr <131724696+jntlvr@users.noreply.github.com>;Thu Mar 13 21:36:00 2025 -0300;Atividade Prática - Aula 02
+a1470ee0c4a8e7f8185ce0c69f33313c7154ef3e;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 17:08:40 2025 -0300;Update README.md file.
+71271041251a85de4384a73505f70deb06269637;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 11:58:20 2025 -0300;Initial commit
